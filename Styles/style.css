@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: bisque;
+}
+
+.Navigation {
+    background-color: black;
+    overflow: hidden;
+    text-align: center;
+}
+
+.Navigation ul {
+    width: 100%;
+    height: 100px;
+
+}
+
+.Navigation li {
+    height: 100%;
+    width: 150px;
+    margin: 0;
+    padding: 0;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    background-color: blanchedalmond;
+    outline: brown 1px solid;
+}
+
+.Navigation a {
+    flex-grow: 1;
+    
+}
+
+.Active {
+
+}
